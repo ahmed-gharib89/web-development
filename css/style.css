@@ -1,0 +1,76 @@
+
+body{
+    font-family: Georgia ,Helvetica, serif;
+    background-color: #efefef;
+}
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+h1:hover{
+    font-size: 50px;
+}
+p  { 
+    color: black; 
+}
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ol.roman-letters{
+    list-style-type: upper-roman;
+}
+li {
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+    font-size: 1.2em;
+    padding:10px;
+    color: rgb(20%, 20%, 20%);
+    width: 180px;
+    height: 180px;
+}
+li:hover{
+    background-color: rgb(115, 220, 247);
+}
+.sec:hover p {
+    color: blue;
+}
+sub, sup{
+    font-size: 0.7em;
+}
+code{
+    background-color: rgb(90%, 90%, 90%);
+    color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+}
+mark{
+    background-color: #e7eeab;
+}
+.equal-space{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkerboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    border: 5px solid black;
+}
+.box{
+    width:100px;
+    height: 100px;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
